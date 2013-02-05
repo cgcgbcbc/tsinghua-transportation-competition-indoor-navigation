@@ -73,6 +73,7 @@
 				android:layout_height="wrap_content"
 				android:text="@string/button_findby2d_text"
 				android:layout_weight="1"
+				android:onClick="inputby2d"
 			/>
 			<Button
 				android:id="@+id/button_findbyvoice_start"
@@ -80,6 +81,7 @@
 				android:layout_height="wrap_content"
 				android:text="@string/button_findbyvoice_text"
 				android:layout_weight="1"
+				android:onClick="inputbyvoice_start"
 			/>
 		</LinearLayout>
 	</LinearLayout>
@@ -106,6 +108,7 @@
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:text="@string/button_findbyvoice_text"
+			android:onClick="inputbyvoice_end"
 		/>
 	</LinearLayout>
 	<LinearLayout
@@ -120,6 +123,7 @@
 			android:layout_height="wrap_content"
 			android:text="@string/button_menu_text"
 			android:layout_weight="1"
+			android:onClick="menuonclick"
 		/>
 		<Button
 			android:id="@+id/button_search"
@@ -127,6 +131,7 @@
 			android:layout_height="wrap_content"
 			android:text="@string/button_search_text"
 			android:layout_weight="1"
+			android:onClick="searchonclick"
 		/>
 	</LinearLayout>
 </RelativeLayout>
